@@ -1,933 +1,1257 @@
+<!-- 
+  //////////////////////////////////////////////////////
+
+  FREE HTML5 TEMPLATE 
+  DESIGNED & DEVELOPED by FREEHTML5.CO
+
+  //////////////////////////////////////////////////////
+-->
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Portfolio Website</title>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Been Kim</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+  <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+  <meta name="author" content="FREEHTML5.CO" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content=""/>
+  <meta property="og:image" content=""/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:description" content=""/>
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:card" content="" />
 
-    <meta name="description" content="Eoin Kenny: Researcher Personal Website">
-    <meta name="author" content="Postoctoral Associate at MIT">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-
-
-
-
-
-
-  </head>
-  
-  <body>
-
-    <header id="header">
-      <img src="logo.jpg", width="200">
-      <img src="imgs/mit.png", width="200" align="right">
-      <!-- <img src="imgs/ucd.png", height="50" align="right" border="10"> -->
-      <!-- <img src="imgs/maynooth.png", height="50" align="right" border="10"> -->
-      <h1>Eoin M. Kenny - Postdoc at MIT</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#media">Media</a></li>
-        <li><a href="#talks">Invited Talks</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
+  <!-- Google Webfont -->
+  <link href='https://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+  <!-- Themify Icons -->
+  <link rel="stylesheet" href="css/themify-icons.css">
+  <!-- Icomoon Icons -->
+  <link rel="stylesheet" href="css/icomoon-icons.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Easy Responsive Tabs -->
+  <link rel="stylesheet" href="css/easy-responsive-tabs.css">
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
 
 
+  <!-- FOR IE9 below -->
+  <!--[if lte IE 9]>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
 
-            <h2>Upcoming</h2>
+</head>
+<body>
 
-            <p>
-              <img src="imgs/nips.png" width="100" align="right">
-              <i class="fa fa-star" aria-hidden="true" style="color:yellow;"></i> I will be going to NeurIPS 2023! Please get in touch if you'd like to meetup etc., we can probably arrange something.
-            </p>
+  <!-- Header -->
+  <header id="fh5co-header" role="banner">
+    <div class="container">
+      <!-- Logo -->
+      <div id="fh5co-logo">
+        <!--    <img width="100" src="images/logo.png" alt="Work Logo" href="index.html">-->
 
+      </div>
+      <!-- Logo -->
 
+      <!-- Mobile Toggle Menu Button -->
+      <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 
-
-            <h2>About Me</h2>
-
-            <p>
-              I am an explainable AI reseracher (XAI). Previously, I did my Ph.D. at University College Dublin, Ireland. There I worked on post-hoc explanation-by-example with my supervisor Mark Keane. Currently I am researching XAI at MIT alongside Julie Shah, with a focus on contrastive explanation and interpretable deep reinforcement learning.
-            </p>
-
-            <p>
-              <b>I envision AI systems which can be successfully deployed with useful, human-friendly explanations</b>, so that we can clearly see what they are doing in a way that everyone can understand (not just ML experts). To do this, I use <i>example-based</i> XAI, because it is similar to how humans are thought to reason and has much support in user testing that it is useful and understandable to people.
-            </p>
-
-            <p>
-              My strongest contributions to the field have been (1) the introduction of Semi-Factual explanation, and (2) designing the first exemplar-based interpretable Deep RL system.
-            </p>
-
-
+      <!-- Main Nav -->
+      <div id="fh5co-main-nav">
+        <nav id="fh5co-nav" role="navigation">
+          <ul>
+            <li class="fh5co-active">
+              <a href="index.html">About</a>
+            </li>
+            <li>
+              <a href="#Pubs">Publications</a>
+            </li>
+              <a href="#Talks">Talks</a>
+            </li>
+            <li>
+              <a href="#Media">Media</a>
+            </li>
+          </ul>
+          </a>
+          <div class="fh5co-nav-call-to-action js-fh5co-nav-call-to-action">
+            <a href="https://twitter.com/_beenkim" > <img width="30" src="images/twitter.png" align:right; > </a>
+            <a href="http://scholar.google.com/citations?hl=en&user=aGXkhcwAAAAJ" ><img width="30" src="images/gsch.png" > </a>
           </div>
-          
+            </a>
+        </nav>
+      </div>
+      <!-- Main Nav -->
+    </div>
+  </header>
+  <!-- Header -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <div id="research" class="content-region hide">
-    
-            <p>
-              Here you will find some selected publications from my work I chose to highlight. Note this is far from an exhaustive list. 
-            </p>
-            <p>
-              For a full list see my Google Scholar page <a href="https://scholar.google.com/citations?user=AzMTFY4AAAAJ&hl=en">here</a>.
-            </p>
-
-            <p>
-              I have published in many of the top AI/ML conferences and Journals as first author during the past few years, including NeurIPS, ICLR, AAAI, IJCAI, and the AI Journal.
-            </p>
-            <p>
-              My notable contributions have been the introduction of semi-factual explanations, the first inherently intrepretable (high performing) Deep RL system, the twin-system framework for post-hoc example-based explanation, and several high quality user evaluations (designed with cognitive psychologists). <b>Note all of this is geared towards realising my vision of useful, human-friendly explanations.</b>
-            </p>
-<!--             <p>
-              My latest paper (I am excited to share soon) is a non-trivial extension of semi-factual explanations in financial domains.
-            </p>
- -->
-              <hr>
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>The Utility of "Even if" Semi-Factual Explanation to Optimize Positive Outcomes</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/nips2023.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We show that semi-factuals are probably more useful than conterfactuals when a user gets a positive outcome from an AI system.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> When users receive either a positive or negative outcome from an automated system,
- eXplainable AI (XAI) has almost exclusively focused on how to mutate negative
- outcomes into positive ones by crossing a decision boundary using counterfactuals
- (e.g., “If you earn 2k more, we will accept your loan application”). In this work,
- we instead focus on positive outcomes, and take the novel step of using XAI to
- optimize them (e.g., “Even if you wish to half your down-payment, we will still
- accept your loan application”). Explanations such as these that employ “even if”
- reasoning and do not cross a decision boundary, are known as semi-factuals. To
- instantiate semi-factuals in this context, we introduce the concept of “gain” (i.e.,
- how much a user stands to benefit from the proposed explanation), and consider
- the first causal formalization of semi-factuals. Tests on benchmark datasets show
- that our algorithms are better at maximizing gain compared to prior work, and
- that causality is especially important in the process. Most importantly however,
- a user study supports our main hypothesis by showing that people clearly find
- semi-factual explanations more useful compared to counterfactuals when they
- receive the positive outcome of a loan acceptance
-                        </p>
-
+  <main role="main">
+    <!-- Start Intro -->
+    <div id="fh5co-intro">
+      <div class="container">
+        <img width="470" src="images/Been_Kim.png" align="left" >
+        <div class="row">
+            <img width="190" src="images/logo.png"  style="margin:0px 0px 0px 0px;" >
+            <p>senior staff research scientist </p>
+<p>at Google DeepMind</p>
+            beenkim at csail dot mit dot edu
         </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M. Kenny, Weipeng Huang (Equal Contribution)</i>
-          </p>
-          <p>
-                [<a href="xxx">NeurIPS 2023</a>] * Link not working yet -- publication in progress
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>Advancing Post-Hoc Case-Based Explanation with Feature Highlighting</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/ijcai2023.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We show how to add feature saliency to post-hoc case-based explanation.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> Explainable AI (XAI) has been proposed as a valuable tool to assist in downstream tasks involving
-human-AI collaboration. Perhaps the most psychologically valid XAI techniques are case-based approaches which display “whole” exemplars to
-explain the predictions of black-box AI systems.
-However, for such post-hoc XAI methods dealing
-with images, there has been no attempt to improve
-their scope by using multiple clear feature “parts”
-of the images to explain the predictions while linking back to relevant cases in the training data, thus
-allowing for more comprehensive explanations that
-are faithful to the underlying model. Here, we
-address this gap by proposing two general algorithms (latent and superpixel-based) which can iso-
-late multiple clear feature parts in a test image, and
-then connect them to the explanatory cases found
-in the training data, before testing their effectiveness in a carefully designed user study. Results
-demonstrate that the proposed approach appropriately calibrates a user’s feelings of “correctness”
-for ambiguous classifications in real world data on
-the ImageNet dataset, an effect which does not happen when just showing the explanation without feature highlighting
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M. Kenny, Eoin Delaney, and Mark T. Keane</i>
-          </p>
-          <p>
-                [<a href="https://www.ijcai.org/proceedings/2023/0048.pdf">IJCAI 2023</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>Towards Interpretable Deep Reinforcement Learning with Human-Friendly Prototypes</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/iclr2023.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We build the first inherently interpretable, general, well performaning, deep reinforcement learning algorithm.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> Despite recent success of deep learning models in research settings, their application in sensitive domains remains limited because of their opaque decision-making processes. Taking to this challenge, people have proposed various eXplainable AI (XAI) techniques designed to calibrate trust and understandability of black-box models, with the vast majority of work focused on supervised learning. Here, we focus on making an "interpretable-by-design" deep reinforcement learning agent which is forced to use human-friendly prototypes in its decisions, thus making its reasoning process clear. Our proposed method, dubbed Prototype-Wrapper Network (PW-Net), wraps around any neural agent backbone, and results indicate that it does not worsen performance relative to black-box models. Most importantly, we found in a user study that PW-Nets supported better trust calibration and task performance relative to standard interpretability approaches and black-boxes.
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M. Kenny, Mycal Tucker, and Julie A. Shah</i>
-          </p>
-          <p>
-                [<a href="https://openreview.net/forum?id=hWwY_Jq0xsN">ICLR 2023</a>] * Spotlight Presentation (top 25% of accepted papers)
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-            <!-- Start One paper-->
-            <!--  <h3>Chapter 13 -  User tests & techniques for the post-hoc explanation of deep learning</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/explainableDeepAI.jpg" width="400">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We contexualise post-hoc explanation and show a novel method to generate semi-factual and counterfactual images.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> This chapter elaborates on some key ideas and studies designed to provide post-hoc explanations-by-example to the problem of explaining the predictions of black-box deep-learning systems (the so-called XAI problem). With a focus on image and time series data we review several recent explanation strategies – using factual, counterfactual, and semifactual explanations – for Deep Learners. Several novel evaluations of these methods are reported showing how well these methods work, along with representative outputs that are produced. The chapter also profiles the user studies being carried out on these methods, discussing the pitfalls that arise and results found.
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin Delaney, Eoin M. Kenny, Derek Greene and Mark T. Keane</i>
-          </p>
-          <p>
-                [<a href="https://www.sciencedirect.com/science/article/pii/B9780323960984000193?via%3Dihub">Explainable Deep Learning AI 2023</a>]
-          </p>
-        </div>
-
-        <hr> -->
-            <!-- End One paper --> 
-
-
-
-
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>Explaining Deep Learning using examples: Optimal feature weighting methods for twin systems using post-hoc, explanation-by-example in XAI</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/kbs2022.jpg" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We advance our state-of-the-art twin-system framework and show how to explain tabular, image, and text data AI predictions with training examples.
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> In this paper, the twin-systems approach is reviewed, implemented, and competitively tested as a post-hoc explanation-by-example solution to the eXplainable Artificial Intelligence (XAI) problem. In twin-systems, an opaque artificial neural network (ANN) is explained by “twinning” it with a more interpretable case-based reasoning (CBR) system, by mapping the feature weights from the former to the latter. Extensive comparative tests are performed, over four experiments, to determine the optimal feature-weighting method for such twin-systems. Twin-systems for traditional multilayer perceptron (MLP) networks (MLP–CBR twins), convolutional neural networks (CNNs; CNN–CBR twins), and transformers for NLP (BERT–CBR twins) are examined. In addition, Feature Activation Maps (FAMs) are explored to enhance explainability by providing an additional layer of explanatory insight. The wider implications of this …
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M. Kenny and Mark T. Keane</i>
-          </p>
-          <p>
-                [<a href="https://www.sciencedirect.com/science/article/pii/S0950705121007929">Knowledge Based Systems 2022</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>On generating plausible counterfactual and semi-factual explanations for deep learning</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/aaai2022.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We introduce the AI world to semi-factuals, and show a plausible way to generate them (and counterfactuals) using a framework called PIECE.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> There is a growing concern that the recent progress made in AI, especially regarding the predictive competence of deep learning models, will be undermined by a failure to properly explain their operation and outputs. In response to this disquiet, counterfactual explanations have become very popular in eXplainable AI (XAI) due to their asserted computational, psychological, and legal benefits. In contrast however, semi-factuals (which appear to be equally useful) have surprisingly received no attention. Most counterfactual methods address tabular rather than image data, partly because the non-discrete nature of images makes good counterfactuals difficult to define; indeed, generating plausible counterfactual images which lie on the data manifold is also problematic. This paper advances a novel method for generating plausible counterfactuals and semi-factuals for black-box CNN classifiers doing computer vision. The present method, called PlausIble Exceptionality-based Contrastive Explanations (PIECE), modifies all “exceptional” features in a test image to be “normal” from the perspective of the counterfactual class, to generate plausible counterfactual images. Two controlled experiments compare this method to others in the literature, showing that PIECE generates highly plausible counterfactuals (and the best semi-factuals) on several benchmark measures.
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M. Kenny and Mark T. Keane</i>
-          </p>
-          <p>
-                [<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17377">AAAI 2022</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-            <!-- Start One paper-->
-            <h3>Bayesian Case-Exclusion and Explainable AI (XAI) for Sustainable Farming</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/iccbr2019.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We show how to accuractly predict grass growth and offer "good" explanations to Irish Dairy Farmers.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> Smart agriculture (SmartAg) has emerged as a rich domain for AI-driven decision support systems (DSS); however, it is often challenged by user-adoption issues. This paper reports a case-based reasoning system, PBI-CBR, that predicts grass growth for dairy farmers, that combines predictive accuracy and explanations to improve user adoption. PBI-CBR’s key novelty is its use of Bayesian methods for case-base maintenance in a regression domain. Experiments report the tradeoff between predictive accuracy and explanatory capability for different variants of PBI-CBR, and how updating Bayesian priors each year improves performance.
-
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M Kenny, Elodie Ruelle, Anne Geoghegan, Mohammed Temraz, Mark T Keane</i>
-          </p>
-          <p>
-                [<a href="https://www.ijcai.org/proceedings/2020/657">IJCAI 2021</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-            <!-- Start One paper-->
-            <h3>Explaining black-box classifiers using post-hoc explanations-by-example: The effect of explanations and error-rates in XAI user studies</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/aij2021.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We find that nearest neighbor exemplar-based explanation lead people to view classifiction errors as being “less incorrect”, moreover they do not improve trust.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> In this paper, we describe a post-hoc explanation-by-example approach to eXplainable AI (XAI), where a black-box, deep learning system is explained by reference to a more transparent, proxy model (in this situation a case-based reasoner), based on a feature-weighting analysis of the former that is used to find explanatory cases from the latter (as one instance of the so-called Twin Systems approach). A novel method (COLE-HP) for extracting the feature-weights from black-box models is demonstrated for a convolutional neural network (CNN) applied to the MNIST dataset; in which extracted feature-weights are used to find explanatory, nearest-neighbours for test instances. Three user studies are reported examining people's judgements of right and wrong classifications made by this XAI twin-system, in the presence/absence of explanations-by-example and different error-rates (from 3-60%). The judgements gathered include item-level evaluations of both correctness and reasonableness, and system-level evaluations of trust, satisfaction, correctness, and reasonableness. Several proposals are made about the user's mental model in these tasks and how it is impacted by explanations at an item- and system-level. The wider lessons from this work for XAI and its user studies are reviewed.
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M Kenny, Courtney Ford, Molly Quinn, Mark T Keane</i>
-          </p>
-          <p>
-                [<a href="https://www.sciencedirect.com/science/article/pii/S0004370221000102">Artificial Intelligence 2021</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>If only we had better counterfactual explanations: Five key deficits to rectify in the evaluation of counterfactual xai techniques</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/ijcai2021.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We highlight the shortcomings in counterfactual XAI research evaluation, and suggest solutions.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> In recent years, there has been an explosion of AI research on counterfactual explanations as a solution to the problem of eXplainable AI (XAI). These explanations seem to offer technical, psychological and legal benefits over other explanation techniques. We survey 100 distinct counterfactual explanation methods reported in the literature. This survey addresses the extent to which these methods have been adequately evaluated, both psychologically and computationally, and quantifies the shortfalls occurring. For instance, only 21% of these methods have been user tested. Five key deficits in the evaluation of these methods are detailed and a roadmap, with standardised benchmark evaluations, is proposed to resolve the issues arising; issues, that currently effectively block scientific progress in this field.
-
-
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Mark T Keane, Eoin M Kenny, Eoin Delaney and Barry Smyth</i>
-          </p>
-          <p>
-                [<a href="https://www.ijcai.org/proceedings/2021/0609.pdf">IJCAI 2021</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>Generating Plausible Counterfactual Explanations for
-Deep Transformers in Financial Text Classification</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/coling2020.png" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We show how to generate counterfactual explanations for NLP in a model agnostic way.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> Corporate mergers and acquisitions (M&A) account for billions of dollars of investment globally every year, and offer an interesting and challenging domain for artificial intelligence. However, in these highly sensitive domains, it is crucial to not only have a highly robust and accurate model, but be able to generate useful explanations to garner a user's trust in the automated system. Regrettably, the recent research regarding eXplainable AI (XAI) in financial text classification has received little to no attention, and many current methods for generating textual-based explanations result in highly implausible explanations, which damage a user's trust in the system. To address these issues, this paper proposes a novel methodology for producing plausible counterfactual explanations, whilst exploring the regularization benefits of adversarial training on language models in the domain of FinTech. Exhaustive quantitative experiments demonstrate that not only does this approach improve the model accuracy when compared to the current state-of-the-art and human performance, but it also generates counterfactual explanations which are significantly more plausible based on human trials.
-
-
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Linyi Yang, Eoin M Kenny, Tin Lok James Ng, Yi Yang, Barry Smyth, Ruihai Dong</i>
-          </p>
-          <p>
-                [<a href="https://aclanthology.org/2020.coling-main.541/">COLING 2020</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>Twin-systems to explain artificial neural networks using case-based reasoning: Comparative tests of feature-weighting methods in ANN-CBR twins for XAI</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/ijcai2019.jpg" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> We propose a new framework for post-hoc explanation-by-example called Twin-Systems, and show it is much better compared to prior work.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            <b>Abstract:</b> In this paper, twin-systems are described to address the eXplainable artificial intelligence (XAI) problem, where a black box model is mapped to a white box “twin” that is more interpretable, with both systems using the same dataset. The framework is instantiated by twinning an artificial neural network (ANN; black box) with a case-based reasoning system (CBR; white box), and mapping the feature weights from the former to the latter to find cases that explain the ANN’s outputs. Using a novel evaluation method, the effectiveness of this twin-system approach is demonstrated by showing that nearest neighbor cases can be found to match the ANN predictions for benchmark datasets. Several feature-weighting methods are competitively tested in two experiments, including our novel, contributions-based method (called COLE) that is found to perform best. The tests consider the ”twinning” of traditional multilayer perceptron (MLP) networks and convolutional neural networks (CNN) with CBR systems. For the CNNs trained on image data, qualitative evidence shows that cases provide plausible explanations for the CNN’s classifications.
-
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-          <p>
-            <i>Eoin M. Kenny and Mark T. Keane</i>
-          </p>
-          <p>
-                [<a href="https://www.ijcai.org/proceedings/2019/376">IJCAI 2019</a>]
-          </p>
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-
-
-
-
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-
-            <p>
-              Feel free to reach out to me in any of the below ways, I am always happy to hear from people about research or work oppertunities etc!
-            </p>
-
-            <p>
-              <i class="fa fa-envelope" style="font-size:24px"></i> email: ekenny (at...) mit (dot...) edu
-            </p>
-            <p>
-             <a href="https://www.linkedin.com/in/eoin-kenny-92b57b22"> <i class="fa fa-linkedin-square" style="font-size:24px"></i> </a> <a href="https://www.linkedin.com/in/eoin-kenny-92b57b22/">LinkedIn</a>
-            </p>
-            <p>
-             <a href="https://twitter.com/EoinKNNy"> <i class="fa fa-twitter-square" style="font-size:24px"></i> </a> <a href="https://twitter.com/EoinKNNy/">Twitter</a>
-            </p>
-
-
-
-
-          </div>
-
-
-
-
-
-
-
-
-
-          <div id="media" class="content-region hide">
-            
-            <!-- Start One paper-->
-            <h3>National AI Awards Ireland</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/aiAwardIreland.jpeg" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> I won the best application of AI in a student project for my work in Explainable AI in Smart Agriculture.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            Awarded to Eoin Kenny- A PhD student in University College Dublin for his internationally recognised work on predictive AI modelling, explainable AI and precision agriculture.
-
-
-
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-
-          <p>
-                [<a href="https://www.agriland.ie/farming-news/grass-growth-prediction-research-secures-top-ai-award/">Agriland Press Release</a>]
-          </p>
-
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-
-
-            <!-- Start One paper-->
-            <h3>International Conference on Case-Based Reasoning</h3>
-
-                      <div class="fh5co-spacer fh5co-spacer-xs"></div>
-                      <img src="imgs/bestPaper.jpeg" width="100%">
-                      <div class='paper-title'>
-
-
-                      <div class='tldr'>
-
-                        <p>
-
-                          <b>TL;DR:</b> I won the best paper award at ICCBR 2019 which was themed on Explainable AI for my paper regarding Smart Agriculture.
-
-                        </p>
-
-                      </div>
-                        <p>
-
-            Eoin Kenny, a Ph.D. candidate in computer science at the Insight Centre for Data Analytics, recently received an award for best paper at the International Conference on Case-Based Reasoning (2019). 
-
-The work emanated from the VistaMilk research project involving Insight, Teagasc, Tyndall, TSSG and ICBF. The main aim of this initiative is to promote smart agriculture in Ireland which both increases profits and improves sustainability of farming practices. We used an artificial intelligence​ technique called case-based reasoning (CBR) to augment an existing decision support application called PastureBase Ireland (PBI) used by Irish dairy farmers. The system predicts grass growth on Irish dairy farms in advance which allows greater utilisation of grass as a food source for cattle and lessens the carbon costs of importing meal. Continual meetings over several months between Insight and Teagasc were a crucial part of the research that allowed us access to the necessary materials and domain knowledge to design a workable system.
-
-
-
-
-
-
-
-
-
-                        </p>
-
-        </div>
-
-        <div class='paper-contents'>
-
-
-          <p>
-                [<a href="https://www.ucd.ie/cs/blog/bestpaperattheinternationalconferenceoncase-basedreasoning2019//">UCD Press Release</a>]
-          </p>
-
-        </div>
-
-        <hr>
-            <!-- End One paper-->
-
-
-
-
-
-
-          </div>
-
-
-         <div id="talks" class="content-region hide">
-
-            <p>
-
-              Note this is not an exhaustive list by any means, but some highlights the past few years are:
-
-            </p>
-                        <hr>
-
-
-
-            <p>
-              <h3>Jun 2023: Ph.D. Journey (Future Talk)</h3>
-              <b>Given to:</b> Machine Learning Labs at University College Dublin.
-
-            </p>
-            <p>
-              I will tell the story of my Ph.D. and postdoc journey to a new round of graduate students at the university.
-
-            </p>
-
-            <hr>
-
-
-
-
-
-
-            <p>
-              <h3>Dec 2022: Interpretable Deep Reinforcement Learning</h3>
-              <b>Given to:</b> Navy Centre for Applied Research in Artificial Intelligence.
-
-            </p>
-            <p>
-              Regarding prior work in my PhD and more recent work in Interpretable Deep Reinforcement Learning, I was asked to give a talk at the Naval Research Laboratory in Washington DC.
-
-            </p>
-
-            <hr>
-              
-            <p>
-              <h3>Mar 2022: Explaining Black-Box Algorithms</h3>
-              <b>Given to:</b> Imperial College London Whilst doing my Ph.D.
-            </p>
-
-            <p>
-              Talk related to my work with Mark Keane on counterfactuals and Semi-Factuals.
-
-            </p>
-
-
-
-            <hr>
-
-            <p>
-              <h3>Feb 2022: On the Utility of Explanation-by-Example:</h3>
-              <b>Given to:</b> Robert Gordon University. 
-
-            </p>
-
-            <p>
-
-
-              I explained much of my latest research work, particularly in relation to semi-factual explanation. The people in attendence went on to publish notable work in this area.
-            </p>
-            <hr>
-
-              
-            <p>
-              <h3>Sep 2020: Explaining Black-Box Classifiers Via Post-Hoc Explanation-by-Example</h3>
-              <b>Given to:</b> MIT IRG lab.
-
-            </p>
-
-            <p>
-
-              Whilst doing my Ph.D. in Ireland, I was invited to give a talk to the Interactive Robotics Group at
-              MIT about my research in Explainable AI (which ultimately led to my current Appointment at MIT).
-            </p>
-            <hr>
-
-            <p>
-              <h3>Nov 2019: Explaining Artificial Intelligence Black-Box Systems</h3>
-              <b>Given to:</b> KBC Data science Bootcamp, Belgium, 2019.
-
-            </p>
-
-            <p>
-
-              I was invited to give a talk to KBC employees and directors about Explainable AI and my own research in the area. In particular, they were interested in how company stakeholders would react to the explanations, and what would be suitable for them.
-            </p>
-            <hr>
-
-          </div>
-
-
-          
+        <!--<p style="font-size:13px">-->
+        <div class='p12'>
+          I am interested in helping humans to <b>communicate with complex machine learning models</b>: not only by <b>building tools (and tools to criticize them)</b>, but also <b>studying their nature</b>, compared to humans.
+          <a href="https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110/"> Quanta magazine </a> (written by John Pavlus) is a great description of what I do and why.
+          <br/>
+          <br/>
+          I believe
+          <b>the language </b> that humans and machines communicate must be human-centered--<b>higher-level, human-friendly concepts</b>--so that it can make sense to <b> everyone </b>, regardless of how much they know about ML.
+
+          <br/>
+          <br/>
+I gave keynote at <a href="https://iclr.cc/Conferences/2022/Schedule?showEvent=7237">ICLR 2022</a>,
+  <a href="https://ecmlpkdd2020.net/programme/keynotes/">ECML 2020</a> and 
+          at the <a href ="https://en.wikipedia.org/wiki/2018_G20_Buenos_Aires_summit">G20 meeting in Argentina in 2018</a>. One of my work TCAV received <a href="https://en.unesco.org/netexplo">UNESCO Netexplo award</a>, was featured at <a href="https://www.youtube.com/watch?t=2156&v=lyRPyRKHO8M&feature=youtu.be">Google I/O 19'</a> and in <a href="https://brianchristian.org/">Brian Christian</a>'s book on  <a href="https://brianchristian.org/the-alignment-problem/">The Alignment Problem</a>. <br/>
+          <br/>
+
+          Stuff I help with:
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ICLR board 
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General Chair at ICLR 2024
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Senior Program Chair at ICLR 2023
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Workshop Chair at ICLR 2019
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Senior Area chair/Area chair/Senior program committee NeurIPS 2017-now, ICML 2019-now, ICLR 2020-now, AISTATS 2020-now
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steering committee and area chair at <a href="https://fatconference.org/"> FAccT conference</a> 
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Former executive board member and VP of <a href="http://wimlworkshop.org/board/">  Women in Machine Learning</a>.
+          <!--My work on interpretable machine learing was feature at <a href="http://www.thetalkingmachines.com/blog/2016/1/15/real-human-actions-and-women-in-machine-learning"> Talk machines by Hanna Wallach</a> on January 14, 2016.-->
+          <br>      
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Co-organizer of multi-year workshops of Human interpretability in ML (WHI) at ICML
+          <a href="https://sites.google.com/corp/view/whi2020">
+           2020
+          <a href="https://sites.google.com/corp/view/whi2018">
+            2018
+          <a href="https://sites.google.com/view/whi2017/home">
+            2017
+            <a href="https://sites.google.com/site/2016whi/">
+              2016
+            </a>,
+          and <a href="https://sites.google.com/site/nips2016interpretml">NIPS 2016 Worshop on Interpretable Machine Learning for Complex Systems</a>.       <br/>
+
+          <br/>
+          <br/>
+          Tutorials on interpretability:
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Machine Learning Summer School MLSS 2021 (<a href="https://docs.google.com/presentation/d/e/2PACX-1vT9niyHbIv29umb-p3jNHNvs0wpXwwnXvUdubiunV3J0N8O2E7cTrax4giBfPs-xDVnEdaHdN2Ui9Bd/embed?start=false&loop=false&delayms=60000">slides</a>, <a href="https://www.youtube.com/watch?v=18cuUmdtLjo">video</a>)
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deep Learning Summer school at University of Toronto, Vector institute in 2018 (<a href="slides/DLSS2018Vector_Been.pdf">slides</a>, <a href="https://vectorinstitute.ai/faq-items/2018-deep-learning-summer-school">video</a>)
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CVPR 2018 (<a href="https://interpretablevision.github.io/index_cvpr2018.html">slides and videos</a>)
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://2017.icml.cc/Conferences/2017/Tutorials">Tutorial on Interpretable machine learning at ICML 2017</a> (<a href="papers/BeenK_FinaleDV_ICML2017_tutorial.pdf">slides</a>,  <a href="https://icml.cc/Conferences/2017/Schedule?showEvent=900" >video</a>).
+          <br/>
+          <br/>
+          <!--
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT9niyHbIv29umb-p3jNHNvs0wpXwwnXvUdubiunV3J0N8O2E7cTrax4giBfPs-xDVnEdaHdN2Ui9Bd/embed?start=false&loop=false&delayms=60000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+          -->
+          <br/>
+          <br/>
         </div>
       </div>
     </div>
+    <!-- End Intro -->
+    <div id="fh5co-work">
+      <div class="container">
+        <a NAME="Pubs"><h4>Blogs</h4></a>
 
-<!--     <footer>  
-      Footer region
-    </footer>
- -->    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/blog.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+ICLR 2022 keynote
+            <br />
+          <a href="https://www.youtube.com/watch?v=Ub45cGEcTB0&t=6s">talk video</a>
+            <br />
+          </div>
+        <a href="https://medium.com/@beenkim/beyond-interpretability-4bf03bbd9394">blog post</a> (covers only the intro part of the talk)
+            <br />
+          </div>
+          <!-- End One paper-->
+         
+            <br />
+            <br />
+
+      </div>
+    </div>
+    <!-- Start Pub-->
+    <div id="fh5co-work">
+      <div class="container">
+        <a NAME="Pubs"><h4>Publications</h4></a>
+        <div class="p13"> Show me in  <a  href="http://scholar.google.com/citations?hl=en&user=aGXkhcwAAAAJ" >Google Scholar</a></div>
+        <div class="row">
+
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <div class='paper-title'>
+Impossibility Theorems for Feature Attribution
+          </div>
+          <div class='tldr'>
+            TL;DR: We can theoretically prove that just because popular attribution methods tell you there is X attribution to a feature, doesn’t mean you can conclude anything about the actual model's behavior. 
+          </div>
+          <div class='paper-contents'>
+Blair Bilodeau, Natasha Jaques, Pang Wei Koh, Been Kim
+            <br />
+    [<a href="https://arxiv.org/abs/2212.11870">arxiv</a>]
+          </div>
+<!-- End One paper-->
+
+ <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <div class='paper-title'>
+Don't trust your eyes: on the (un)reliability of feature visualizations
+</div>
+          <div class='tldr'>
+          </div>
+          <div class='paper-contents'>
+Robert Geirhos, Roland S. Zimmermann, Blair Bilodeau, Wieland Brendel, Been Kim 
+            <br />
+    [<a href="https://arxiv.org/abs/2306.04719">arxiv</a>]
+          </div>
+<!-- End One paper-->
+
+ <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <div class='paper-title'>
+Concept-based Understanding of Emergent Multi-Agent Behavior
+</div>
+          <div class='tldr'>
+          </div>
+          <div class='paper-contents'>
+Niko Grupen, Natasha Jaques, Been Kim, Shayegan Omidshafiei 
+            <br />
+    [<a href="">arxiv</a>]
+          </div>
+<!-- End One paper-->
+
+ <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/gpp.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+Gaussian Process Probes (GPP) for Uncertainty-Aware Probing
+</div>
+          <div class='tldr'>
+            TL;DR: A probing method that can also provide epistemic and aleatory uncertainties about its probing.
+          </div>
+          <div class='paper-contents'>
+Zi Wang, Alexander Ku, Jason Baldridge, Thomas L. Griffiths, Been Kim
+            <br />
+    [<a href="https://arxiv.org/abs/2305.18213">Neurips2023</a>]
+          </div>
+<!-- End One paper-->
+ 
+ <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/state2exp.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding
+</div>
+          <div class='tldr'>
+            TL;DR: 
+Protégé Effect: use joint embedding model to 1) inform RL reward shaping and 2) provide explanations that improves task performance for users.
+          </div>
+          <div class='paper-contents'>
+Devleena Das, Sonia Chernova, Been Kim 
+            <br />
+    [<a href="">Neurips2023</a>]
+          </div>
+<!-- End One paper-->
+ 
+ 
+
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/localization.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models
+          </div>
+          <div class='tldr'>
+            TL;DR: Surprisingly, localization (where a fact is stored) in LLM has no correlation with editing success.
+          </div>
+          <div class='paper-contents'>
+Peter Hase, Mohit Bansal, Been Kim, Asma Ghandeharioun
+            <br />
+    [<a href="https://arxiv.org/abs/2301.04213">Neurips2023</a>]
+          </div>
+<!-- End One paper-->
+ 
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/causal.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+On the Relationship Between Explanation and Prediction: A Causal View
+          </div>
+          <div class='tldr'>
+            TL;DR: There is not much.  
+          </div>
+          <div class='paper-contents'>
+Amir-Hossein Karimi, Krikamol Muandet, Simon Kornblith, Bernhard Schölkopf, Been Kim
+            <br />
+    [<a href="https://arxiv.org/abs/2212.06925">ICLM 2023</a>]
+          </div>
+<!-- End One paper-->
+ 
     
-  </body>
+    
+
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/subgoal.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+Subgoal-based explanations for unreliable intelligent decision support systems
+          </div>
+          <div class='tldr'>
+            TL;DR: Even when explanations are not perfect, some types of explanations (subgoal-based) can be helpful for training humans in complex tasks.
+          </div>
+          <div class='paper-contents'>
+Devleena Das, Been Kim, Sonia Chernova
+            <br />
+    [<a href="https://arxiv.org/abs/2201.04204">IUI 2023</a>]
+          </div>
+<!-- End One paper-->
+     
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/beyond.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+Beyond Rewards: a Hierarchical Perspective on Offline Multiagent Behavioral Analysis
+          </div>
+          <div class='tldr'>
+            TL;DR:Treat neural networks as if they were a new species in the wild. Conduct an observational study to learn emergent behaviors of the multi-agent RL system.
+          </div>
+          <div class='paper-contents'>
+Shayegan Omidshafiei, Andrei Kapishnikov, Yannick Assogba, Lucas Dixon, Been Kim
+            <br />
+    [<a href="https://arxiv.org/pdf/2206.09046.pdf">Neurips 2022</a>]
+          </div>
+          <!-- End One paper-->
+         
+
+
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/cavcam.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+Mood board search & CAV Camera
+          </div>
+          <div class='tldr'>
+            TL;DR: Together with artists, designers and ML experts, we  experiment with ways in which machine learning can inspire creativity--especially in photography. We open sourced the back-end, and published an Android app.
+          </div>
+          <div class='paper-contents'>
+            <br />
+Google AI blog post: <a href="https://ai.googleblog.com/2022/07/enabling-creative-expression-with.html"> Enabling Creative Expression with Concept Activation Vectors</a>
+            <br />
+Mood Board Search: <a href="https://experiments.withgoogle.com/mood-board-search">AI Experiments Page </a>/ <a href="https://github.com/google-research/mood-board-search">GitHub </a>
+            <br />
+CAV Camera: <a href="https://experiments.withgoogle.com/cav-camera">AI Experiments Page </a>/ <a href="https://play.google.com/store/apps/details?id=co.nordprojects.cavcam">Play Store</a>
+
+          </div>
+<!-- End One paper-->
+         
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/spurious.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+Post hoc Explanations may be Ineffective for Detecting Unknown Spurious Correlation
+          </div>
+          <div class='tldr'>
+            TL;DR: If you know what type of spurious correlations your model may have, you can test them using existing methods. But if you don't know what they are, you can't test them. Many existing interpretability methods can't help you either.
+          </div>
+          <div class='paper-contents'>
+ Julius Adebayo, Michael Muelly, Hal Abelson, Been Kim
+            <br />
+    [<a href="https://openreview.net/forum?id=xNOVfCCvDpM">ICLR 2022</a>]
+          </div>
+          <!-- End One paper-->
+         
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/dissect.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            DISSECT: Disentangled Simultaneous Explanations via Concept Traversals
+          </div>
+          <div class='tldr'>
+            TL;DR: Can we automatically learn concepts tht are relevant to a prediction (e.g., pigmentation), and generate new set of images that would follow the concept trajectory (more or less concept)? Yes.
+          </div>
+          <div class='paper-contents'>
+            Asma Ghandeharioun, Been Kim, Chun-Liang Li, Brendan Jou, Brian Eoff, Rosalind W. Picard
+            <br />
+    [<a href="https://arxiv.org/abs/2105.15164">ICLR 2022</a>]
+          </div>
+          <!-- End One paper-->
+         
+
+
+<!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/alphazero.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Acquisition of Chess Knowledge in AlphaZero
+          </div>
+          <div class='tldr'>
+            TL;DR: How does the super-human self-taught chess play machine--AlphaZero--learn to play chess, and what can we learn about chess from it? We investigate the emergence of human concepts in AlphaZero and the evolution of its play through training. 
+          </div>
+          <div class='paper-contents'>
+Thomas McGrath, Andrei Kapishnikov, Nenad Tomašev, Adam Pearce, Demis Hassabis, Been Kim, Ulrich Paquet, Vladimir Kramnik
+            <br />
+    [<a href="https://www.pnas.org/doi/10.1073/pnas.2206625119">PNAS</a>]
+    [<a href="https://storage.googleapis.com/uncertainty-over-space/alphachess/index.html">visualization</a>]
+          </div>
+          <!-- End One paper-->
+         
+
+
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/aimagazine.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Machine Learning Techniques for Accountability
+          </div>
+          <div class='tldr'>
+            TL;DR: Pros and cons of accountability methods
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Finale Doshi-Velez
+            <br />
+    [<a href="papers/AIMagazine2021.pdf">PDF</a>]
+          </div>
+          <!-- End One paper-->
+         
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img src="images/gestalt.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Do Neural Networks Show Gestalt Phenomena? An Exploration of the Law of Closure
+          </div>
+          <div class='tldr'>
+            TL;DR: It does. And it might be related to how NNs can generalize.
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Emily Reif, Martin Wattenberg, Samy Bengio
+            <br />
+    [<a href="https://arxiv.org/abs/1903.01069">arxiv link</a>]
+    [<a href="https://link.springer.com/article/10.1007%2Fs42113-021-00100-7">Computational Brain & Behavior 2021</a>]
+            <br />
+            [<a href="https://www.technologyreview.com/s/613114/trained-neural-nets-perform-much-like-humans-on-classic-psychological-tests/">MIT      Technology Review</a>]
+          </div>
+          <!-- End One paper-->
+         <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/completeConcept.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            On Completeness-aware Concept-Based Explanations in Deep Neural Networks
+          </div>
+          <div class='tldr'>
+            TL;DR: Let's find set of concepts that are "sufficient" to explain predictions.
+          </div>
+          <div class='paper-contents'>
+            Chih-Kuan Yeh, Been Kim, Sercan O. Arik, Chun-Liang Li, Tomas Pfister, Pradeep Ravikumar
+            <br />
+            [<a href="https://arxiv.org/abs/1910.07969">Neurips 20</a>]
+          </div>
+          <!-- End One paper-->
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/debugging2.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Debugging Tests for Model Explanations
+          </div>
+          <div class='tldr'>
+            TL;DR: Sanity check2.
+          </div>
+          <div class='paper-contents'>
+            Julius Adebayo, Michael Muelly, Ilaria Liccardi, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/2011.05429">Neurips 20</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/cbm.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Concept Bottleneck Models
+          </div>
+          <div class='tldr'>
+            TL;DR: Build a model where concepts are built-in so that you can control influential concepts.
+          </div>
+          <div class='paper-contents'>
+            Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been Kim, Percy Liang
+            <br />
+            [<a href="https://arxiv.org/abs/2007.04612">ICML 20</a>]
+            [<a href="https://ai.googleblog.com/2021/01/google-research-looking-back-at-2020.html">Featured at Google Research review 2020</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/cace.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Explaining Classifiers with Causal Concept Effect (CaCE)
+          </div>
+          <div class='tldr'>
+            TL;DR: Make TCAV causal.
+          </div>
+          <div class='paper-contents'>
+            Yash Goyal, Amir Feder, Uri Shalit, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/1907.07165">arxiv</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/ace.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Towards Automatic Concept-based Explanations
+          </div>
+          <div class='tldr'>
+            TL;DR: Automatically discover high-level concepts that explain a model's prediction.
+          </div>
+          <div class='paper-contents'>
+            Amirata Ghorbani, James Wexler, James Zou, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/1902.03129">Neurips 19</a>]
+            [<a href="https://github.com/amiratag/ACE">code</a>]
+          </div>
+          <!-- End One paper-->
+
+          </br>
+          </br>
+          <div class="center">
+
+    <button id="thebutton" onclick="toggle()">+ Show more...</button>
+          </div>
+
+    <div id="toggle-div">
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/bim.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            BIM: Towards Quantitative Evaluation ofInterpretability Methods with Ground Truth
+          </div>
+          <div class='tldr'>
+            TL;DR:  Datasets, models and metrics to quantitatively evaluate your interpretability methods with groundtruth. We compare many widely used methods and report their rankings.
+          </div>
+          <div class='paper-contents'>
+            Sharry Yang, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/1907.09701">arxiv</a>]
+            [<a href="https://github.com/google-research-datasets/bim">code</a>]
+          </div>
+          <!-- End One paper-->
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/bert.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Visualizing and Measuring the Geometry of BERT
+          </div>
+          <div class='tldr'>
+            TL;DR: Studying geometry of BERT to gain insights behind their impressive performance.
+          </div>
+          <div class='paper-contents'>
+            Andy Coenen, Emily Reif, Ann Yuan, Been Kim, Adam Pearce, Fernanda Viégas, Martin Wattenberg
+            <br />
+            [<a href="https://arxiv.org/abs/1906.02715">Neurips 19</a>]
+            [<a href="https://pair-code.github.io/interpretability/bert-tree/">blog post</a>]
+          </div>
+          <!-- End One paper-->
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/roar.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Evaluating Feature Importance Estimates
+          </div>
+          <div class='tldr'>
+            TL;DR: One idea to evaluate attribution methods.
+          </div>
+          <div class='paper-contents'>
+            Sara Hooker, Dumitru Erhan, Pieter-Jan Kindermans, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/1806.10758">Neurips 19</a>]
+          </div>
+          <!-- End One paper-->
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/HumanEvalIke.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Human Evaluation of Models Built for Interpretability
+          </div>
+          <div class='tldr'>
+            TL;DR: What are the factors of explanation that matter for better interpretability and in what setting? A large-scale study to answer this question.
+          </div>
+          <div class='paper-contents'>
+            Isaac Lage, Emily Chen, Jeffrey He, Menaka Narayanan, Been Kim, Samuel Gershman and Finale Doshi-Velez
+            <br />
+            [<a href="https://arxiv.org/abs/1902.00006">HCOMP 19</a>]
+            <b>(best paper honorable mention)</b><br />
+          </div>
+          <!-- End One paper-->
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/smily.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Human-Centered Tools for Coping with Imperfect Algorithms during Medical Decision-Making
+          </div>
+          <div class='tldr'>
+            TL;DR: A tool to help doctors to navigate medical images using medically-relevant similarties. This work uses a part of <a href="https://arxiv.org/abs/1711.11279"> TCAV </a>idea to sort images with concepts.
+          </div>
+          <div class='paper-contents'>
+            Carrie J. Cai, Emily Reif, Narayan Hegde, Jason Hipp, Been Kim, Daniel Smilkov, Martin Wattenberg, Fernanda Viegas, Greg S. Corrado, Martin C. Stumpe, Michael Terry
+            <br />
+            <i></i>CHI 2019 <b>(best paper honorable mention)</b><br />
+            [<a href="https://arxiv.org/abs/1902.02960">pdf</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/fisher.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Interpreting Black Box Predictions using Fisher Kernels
+          </div>
+          <div class='tldr'>
+            TL;DR: Answering "which training examples are most responsible for a given set of predictions?" Follow up of <a href="papers/KIM2016NIPS_MMD.pdf"> MMD-critic </a> [NeurIPS 16]. The difference is that now we pick examples informed by how the classifier sees them!
+          </div>
+          <div class='paper-contents'>
+            Rajiv Khanna, Been Kim, Joydeep Ghosh, Oluwasanmi Koyejo
+            <br />
+            [<a href="https://arxiv.org/abs/1810.10118">AISTATS 2019</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/TrustScore.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            To Trust Or Not To Trust A Classifier
+          </div>
+          <div class='tldr'>
+            TL;DR: A very simple method that tells you whether to trust your prediction or not, that happens to also have nice theoretical properties! 
+          </div>
+          <div class='paper-contents'>
+            Heinrich Jiang, Been Kim, Melody Guan, Maya Gupta
+            <br />
+            [<a href="https://arxiv.org/abs/1805.11783">Neurips 2018 </a>]
+            [<a href="https://github.com/google/TrustScore">code</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/HumanInLoop.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Human-in-the-Loop Interpretability Prior
+          </div>
+          <div class='tldr'>
+            TL;DR: Ask humans which models are more interpretable DURING the model training. This gives us a more interpretable model for the end-task.
+          </div>
+          <div class='paper-contents'>
+            Isaac Lage, Andrew Slavin Ross, Been Kim, Samuel J. Gershman, Finale Doshi-Velez
+            <br />
+            [<a href="https://arxiv.org/abs/1805.11571">Neurips 2018</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/SanityNIPS2018.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Sanity Checks for Saliency Maps
+          </div>
+          <div class='tldr'>
+            TL;DR: Saliency maps are popular post-training interpretability methods that claim to show the 'evidence' of predictions. But it turns out that they have little to do with the model's prediction! Some saliency maps produced from a trained network and a random network (with random prediction) are visually indistinguishable.
+          </div>
+          <div class='paper-contents'>
+            Julius Adebayo, Justin Gilmer, Ian Goodfellow, Moritz Hardt, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/1810.03292">Neurips 18</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/TCAV_doctor.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)
+          </div>
+          <div class='tldr'>
+            TL;DR: We can learn to represent human-concepts in any layer of already-trained neural networks. Then we can ask how important were those concepts for a prediction.
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, Rory Sayres 
+            <br />
+            [<a href="https://arxiv.org/abs/1711.11279">ICML 18</a>]
+            [<a href="https://github.com/tensorflow/tcav">code</a>]
+            [<a href="bibs/TCAVKim17.bib">bibtex</a>]
+            [<a href="slides/TCAV_ICML_pdf.pdf">slides</a>]
+            <br/>
+            <br/><img width="300" src="images/sundar.png" align="right" alt="2" />
+            <a href="https://en.wikipedia.org/wiki/Sundar_Pichai"> Sundar Pichai </a> (CEO of Google)'s presenting TCAV as a tool to build AI for everyone at his keynote speech at Google I/O 2019
+            [<a href="https://youtu.be/lyRPyRKHO8M?t=2178">video</a>]
+
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/cat.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            The (Un)reliability of saliency methods
+          </div>
+          <div class='tldr'>
+            TL;DR: Existing saliency methods could be unreliable; we can make them show whatever we want by simply introducing constant shift in the input (not even adversarial!).
+          </div>
+          <div class='paper-contents'>
+            Pieter-Jan Kindermans, Sara Hooker, Julius Adebayo, Maximilian Alber, Kristof T. Schütt, Sven Dähne, Dumitru Erhan, Been Kim
+            <br />
+            [<a href="https://arxiv.org/abs/1711.00867">NIPS workshop 2017 on Explaining and Visualizing Deep Learning</a>]
+            [<a href="bibs/UnreliableKindermans17.bib">bibtex</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/smoothgrad.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            SmoothGrad: removing noise by adding noise
+          </div>
+          <div class='paper-contents'>
+            Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Viégas, Martin Wattenberg
+            <br />
+            [<a href="https://arxiv.org/abs/1706.03825">ICML workshop on Visualization for deep learning 2017</a>]
+            [<a href="https://pair-code.github.io/saliency/">code</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/qsangle.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            QSAnglyzer: Visual Analytics for Prismatic Analysis of Question Answering System Evaluations
+          </div>
+          <div class='paper-contents'>
+            Nan-chen Chen and Been Kim<br />
+            <br />
+            [<a href="http://nanchen.csie.org/publications/qsanglyzer_vast2017.pdf">VAST 2017</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/interpretabilityPaper.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Towards A Rigorous Science of Interpretable Machine Learning
+          </div>
+          <div class='paper-contents'>
+            Finale Doshi-Velez and Been Kim<br />
+            <br />
+            Springer Series on Challenges in Machine Learning: "Explainable and Interpretable Models in Computer Vision and Machine Learning"
+            [<a href="https://arxiv.org/abs/1702.08608">pdf</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/nips2016_criticism.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Examples are not Enough, Learn to Criticize! Criticism for Interpretability
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Rajiv Khanna and Sanmi Koyejo<br />
+            <br />
+            [<a href="papers/KIM2016NIPS_MMD.pdf">NIPS 16</a>]
+            [<a href="slides/Kim2016MMD_final_short.pdf">NIPS oral slides</a>]
+            [<a href="https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Examples-are-not-enough-learn-to-criticize-Criticism-for-Interpretability">talk video</a>]
+            [<a href="https://github.com/BeenKim/MMD-critic">code</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/nips2015.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Mind the Gap: A Generative Approach to Interpretable Feature Selection and Extraction
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Finale Doshi-Velez and Julie Shah
+            <br />
+            [<a href="papers/BKim2015NIPS.pdf">NIPS 15</a>]
+            [<a href="papers/BKim2015NIPS_supp.pdf">variational inference in gory detail</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/ibcm_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            iBCM: Interactive Bayesian Case Model Empowering Humans via Intuitive Interaction
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Elena Glassman, Brittney Johnson and Julie Shah
+            <br />
+            [<a href="papers/BKimPhDThesis.pdf">Chapter X in thesis</a>]
+            [<a href="https://www.youtube.com/watch?v=8PwHigCDdW8&feature=youtu.be">demo video</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/nips14_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Bayesian Case Model: <br/> A Generative Approach for Case-Based Reasoning and Prototype Classification
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Cynthia Rudin and Julie Shah<br />
+            <br />
+            [<a href="papers/KimRudinShahNIPS2014.pdf">NIPS 14</a>]
+            [<a href="papers/BeenKimNIPS2014Poster.pdf">poster</a>]
+            This work was featured on 
+            <a href="http://newsoffice.mit.edu/2014/pattern-recognition-systems-convey-learning-1205">MIT news</a> and <a href="http://web.mit.edu/site/date/2014/12/">MIT front page spotlight</a>.
+          </div>
+          <!-- End One paper-->
+
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/aaai15_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Scalable and interpretable data representation for <br/> high-dimensional complex data
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Kayur Patel, Afshin Rostamizadeh and Julie Shah<br />
+            <br />
+            [<a href="papers/BeenPRSAAAI15.pdf">AAAI 15</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/jair14_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            A Bayesian Generative Modeling with Logic-Based Prior
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Caleb Chacha and Julie Shah
+            <br />
+            [<a href="papers/KimShah14JAIR.pdf">Journal of Artificial Intelligence Research (JAIR) 2014</a>]
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/dami_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Learning about Meetings
+          </div>
+          <div class='paper-contents'>
+            Been Kim and Cynthia Rudin <br />
+            <br />
+            <br />
+            [<a href="http://arxiv.org/abs/1306.1927">Data Mining and Knowledge Discovery Journal
+              2014</a>]
+            This work was featured in <a href="http://online.wsj.com/news/articles/SB10001424127887324021104578553900295324678">Wall Street Journal</a>.
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/aaai13_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Inferring Robot Task Plans from Human Team Meetings: <br/>A Generative Modeling Approach with Logic-Based Prior
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Caleb Chacha and Julie Shah<br/>
+            <br />
+            [<a href="papers/BKimCS2013.pdf">AAAI 13</a>]
+            [<a href="http://tiny.cc/uxhcrw">video</a>]	
+
+            This work was featured in:
+            <br/>
+            "Introduction to AI" course at Harvard (COMPSCI180: Computer science 182) by Barbara J. Grosz.
+            <br/>
+            [<a href="http://isites.harvard.edu/icb/icb.do?keyword=k97104">Course website</a>]
+            <br/>
+            "Human in the loop planning and decision support" tutorial at AAAI15 by Kartik Talamadupula and Subbarao Kambhampati.
+            <br/>
+            [<a href="http://rakaposhi.eas.asu.edu/HIL-Final-Combined.pdf">slides From the tutorial</a>]
+            <
+          </div>
+          <!-- End One paper-->
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/thesis_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            PhD Thesis: Interactive and Interpretable Machine Learning Models for Human Machine Collaboration
+          </div>
+          <div class='paper-contents'>
+            Been Kim<br />
+            <br />
+            [<a href="papers/BKimPhDThesis.pdf">PhD Thesis 2015</a>]
+            [<a href="papers/BKimPhDThesis_slides">slides</a>]
+          </div>
+          <!-- End One paper-->
+
+
+
+          <!-- Start One paper-->
+          <div class="fh5co-spacer fh5co-spacer-xs"></div>
+          <img width="300" src="images/icra10_thumb.png" alt="Images" class="fh5co-align-left img-responsive">
+          <div class='paper-title'>
+            Multiple Relative Pose Graphs for Robust Cooperative Mapping
+          </div>
+          <div class='paper-contents'>
+            Been Kim, Michael Kaess, Luke Fletcher, John Leonard, Abraham Bachrach, Nicholas Roy, and Seth Teller <br />
+            <br />
+            [<a href="papers/BKim10ICRA.pdf">ICRA 2010</a>]
+            [<a href="http://youtu.be/_d6p9VhDsF8">video</a>]
+          </div>
+          <!-- End One paper-->
+    </div> <!-- End of toggle -->
+
+
+        </div>
+      </div>
+      <!-- End Pub-->
+
+      <!-- Start Talks-->
+      <div id="fh5co-work">
+        <div class="container">
+          <a NAME="Talks"><h4>Talks</h4></a>
+
+          <div class="p13">
+<span style="color:#F87431">This list is serously out of date. -> I generally give a lot of talks. </span> 
+            </br>
+            </br>
+            </br>
+Invited talk at <a href="https://nap.nationalacademies.org/author/CATS/division-on-engineering-and-physical-sciences/committee-on-applied-and-theoretical-statistics">  Applied and Theoretical Statistics (CATS) from the National Academies of Sciences, Engineering, and Medicine </a>
+            </br>
+Invited talk at <a href="https://sites.google.com/corp/view/repl4nlp2022/invited-speakers"> ACL 2022 Repl4NLP workshop </a>
+            </br>
+Invited talk at <a href="https://xai4cv.github.io/workshop"> CVPR 2022 workshop XAI4CV</a>
+            </br>
+Invited <span style="color:#F87431">keynote</span> at <a href="https://www.mlforhc.org/2022-agenda"> Machine Learning for Health Care 2022</a>
+            </br>
+Inited talk at ICML 2022 <a href="https://sites.google.com/view/imlh2022/speakers?authuser=0"> Interpretable Machine Learning in Healthcare </a> workshop
+            </br>
+Invited <span style="color:#F87431">keynote</span> at <a href="https://www.youtube.com/watch?v=Ub45cGEcTB0&t=6s"> ICLR 2022 </a>
+            </br>
+Invited lecture at <a href="https://brown-deep-learning.github.io/dl-website-2022/"> Brown University Deep Learning course</a>
+            </br>
+Invited talk at <a href"https://www.youtube.com/watch?v=duhm5jfKBgg">KAIST International Symposium on AI and Future Society</a>
+            </br>
+Invited talk at <a href="https://research.samsung.com/saif">Samsung AI forum 2021</a>
+            </br>
+Invited session talk at <a href="http://meetings.informs.org/wordpress/anaheim2021/">Informs conference 2021</a>
+            </br>
+Invited talk at <a href="https://neural-architecture-ppf.github.io/"> ICCV 2021 workshop Neural Architectures: Past, Present and Future</a>
+            </br>
+Invited keynote at <a href="http://imimic-workshop.com/">MICCAI 2021 workshop on "Interpretability of Machine Intelligence in Medical Image Computing" </a>
+            </br>
+		Neurips 2021 workshop on <a href="https://www.afciworkshop.org/"> Algorithmic Fairness through the Lens of Causality and Robustness</a>
+            </br>
+            Invited tutorial at <a href="http://mlss.cc/">Annual Machine Learning Summer School 2021</a>
+            </br>
+            Invited talk at <a href="https://sites.google.com/view/recourse21/">ICML 2021 Workshop on Algorithmic Recourse</a>
+            </br>
+            Invited talk at <a href="https://sites.google.com/view/saiad2021">CVPR SAIAD 2021: Safe Artificial Intelligence for Automated Driving</a>
+            </br>
+            Invited at
+            <a href="http://xaip.mybluemix.net/#/program">ICAPS 2021 International Workshop of Explainable AI Planning (XAIP)</a>
+            </br>
+            Invited lecture at Machine Learning Summer School 2021 <a href="http://mlss.cc/">MLSS</a>
+            </br>
+            KAIST CS774 AI & Ethics Guest Lecture 
+            </br>
+            Invited talk at <a href="https://sites.google.com/corp/view/rai-workshop/home">ICLR-21 Workshop on Responsible AI </a>
+            </br>
+            Invited talk at <a href="https://www.cs.ox.ac.uk/seminars/distinguishedspeakers/previous.html">Distinguished Speakers: Oxford Women in Computer Science</a>
+            </br>
+            MIT career forum: Academia vs Industry? 2021
+            </br>
+            Invited talk <a href="http://www.cs.cmu.edu/~aiseminar/">CMU AI seminar</a>
+            </br>
+            Invited <span style="color:#F87431">keynote</span> <a href="https://web.cvent.com/event/c733574c-9f9f-4155-9316-56c57720cf4f/websitePage:81bf6fd7-e7fd-4670-b867-d4e0281cf3ba">
+              Federal Reserve AI Symposium 2021</a>
+            </br>
+            Invited panel <a href="https://sites.google.com/corp/view/xaiworkshop/program">AAAI 2021 Explainable Agency in Artificial Intelligence Workshop</a>
+            </br>
+            Invited talk <a href="https://www.cs.ox.ac.uk/seminars/distinguishedspeakers/previous.html">Distinguished Speakers: Oxford Women in Computer Science</a>
+            </br>
+            Invited talk <a href="https://www.turing.ac.uk/research/interest-groups/robust-machine-learning">Robust machine learning group at Oxford, 2021</a>
+            </br>
+            Guest lecture at <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS+81SI%3A+AI+Interpretability+and+Fairness&collapse="> Stanford class CS81SI 2020</a>
+            </br>
+            Invited <span style="color:#F87431">keynote</span> at <a href="https://ecmlpkdd2020.net/programme/keynotes/">ECML 2020</a>
+            </br>
+            ...Maternity leave for a while in 2020!... 
+            </br>
+            Invited talk at <a href="https://www.facebook.com">Facebook</a>
+            </br>
+
+            Invited forum at <a href="">Humans of AI, Stanford 2020</a>
+            </br>
+
+            Invited talk at <a href="https://www.widsconference.org/"> Women in Data Science at Stanford 2020</a>
+            </br>
+            Invited talk at <a href="https://www.runtheworld.today/app/invitation/1374">IAS on New Directions in Optimization, Statistics and Machine Learning April 15-17, 2020</a>
+            </br>
+            Invited interview at <a href="https://blog.google/inside-google/googlers/ask-techspert-how-do-machine-learning-models-explain-themselves/">Google's Techspert </a>
+            </br>
+
+            Invited <span style="color:#F87431">keynote</span> at <a href="https://www.humancomputation.com/2019/keynote.html#kim">HCOMP 2019 </a>
+            </br>
+            Invited <span style="color:#F87431">keynote</span> at <a href="http://www.visualdatascience.org/2019/program/">Visualization in Data Science (VDS) 2019</a>
+            </br>
+
+            Invited talk at <a href="https://nips.cc/Expo/Conferences/2019/Schedule_overview?presentation_type=Talks">Neurips Expo 19, Google speaker</a>
+            </br>
+            Invited talk at <a href="https://sites.google.com/corp/view/hcml-2019 ">Human centered ML (HCML) workshop at Neurips 19</a> 
+            </br>
+            Invited panel at <a href=" https://mindingthegap.github.io/">Minding the Gap workshop at Neurips 19</a>
+            </br>
+            Invited panel at <a href="https://sites.google.com/corp/view/sedl-neurips-2019/">Science meets Engineering of Deep Learning workshop Neurips 19</a>
+            </br>
+            Invited talk at <a href="https://icml2019workshop.github.io/"> Security and privacy in ML workshop ICML 19</a>
+            </br>
+            Invited talk at <a href="https://explainai.net/">Workshop on Explainable AI  CVPR 19</a>
+            </br>
+            Invited talk at <a href="https://sites.google.com/corp/view/saiad-wscvpr19/home">Safe Artificial Intelligence for Automated Driving CVPR 19</a>
+            </br>
+            Invited talk at <a href="https://xai.kdd2019.a.intuit.com/">KDD XAI workshop 2019</a>
+            </br>
+            Invited lecture at <a href="https://dawn.cs.stanford.edu//seminar/">Stanford Dawn seminar 2019</a>
+            </br>
+            Invited lecture at <a href="">UW CSE AI Seminar</a>
+            </br>
+            Invited lecture at <a href="https://berkeley-deep-learning.github.io/cs294-131-s19/">UC Berkeley for seminar course Special Topics in Deep Learning </a>
+            </br>
+            Invited tutorial at <a href="https://dl4sci-school.lbl.gov/home">Deep Learning for Science School at Lawrence Berkeley National Laboratory 2019</a>
+            </br>
+            Invited tutorial at <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=19452"> Dagstuhl “Machine Learning Meets Visualization to Make Artificial Intelligence Interpretable” 2019</a>
+            </br>
+            Invited talk at <a href="https://simons.berkeley.edu/workshops/schedule/10629">Simon’s workshop on Foundations of Deep Learning at UC Berkeley: Emerging Challenges in Deep Learning</a>
+            </br>
+            Invited talk at <a href="https://simons.berkeley.edu/workshops/schedule/10627">Simon’s workshop on Foundations of Deep Learning at UC Berkeley: Frontiers of Deep Learning
+            </a>
+            </br>
+            Invited interview with <a href="https://www.parsingscience.org/2019/07/09/been-kim/">Parsing science podcast: designed to explain science for lay people.</a>
+            </br>
+            <a href="https://en.wikipedia.org/wiki/G20">G20 meeting</a> in Argentina in 2019
+            </br>
+            Invited talk at <a href="https://secml2018.github.io/">NIPS 2018 workshop on Security in Machine Learning 2018 </a>
+            </br>
+            Invited talk at <a href="https://sdsc2018.mit.edu/">Statistics and Data Science Conference (SDSCon) at Data Systems and Society at MIT</a>
+            </br>
+            Invited talk at <a href="https://www.bbc.co.uk/academy/en/events/evt20180704115336827"> BBC AI conference </a>
+            </br>
+            Invited talk at <a href="https://mlconf.com/sessions/interpretability-beyond-feature-attribution-quant/">ML conf 2018</a>
+            </br>
+            Invited talk at <a href="https://conferences.law.stanford.edu/futurelaw2018/agenda/">CodeX FutureLaw conference at Stanford law school 2018</a>
+            </br>
+            Invited talk at <a href="https://interpretablevision.github.io/index_cvpr2018.html">Interpretable Machine Learning for Computer Vision CVPR 2018</a>
+            </br>
+            Invited tutorial at <a href="https://dlrl.ca/speakers/">Deep Learning Summer School at University of Toronto/Vector institute 2018</a>
+            </br>
+            Invited keynote at <a href="https://visxai.io/2018.html">Visualization for AI Explainability at IEEE VISi 2018</a>
+            </br>
+            Invited talk at <a href="https://machlearn.gitlab.io/hitl2017/schedule/">Human in the Loop Machine Learning workshop ICML 2017 </a>
+            </br>
+            Invited talk at <a href="https://sites.google.com/site/wildml2017icml/schedule">Reliable ML in the wild workshop ICML 2017</a>
+            </br>
+            Invited tutorial at <a href="https://icml.cc/Conferences/2017/Tutorials">ICML 2017</a> <a href="https://vimeo.com/240429018"> video </a>
+            </br>
+            Invited talk at <a href="http://www.interpretable-ml.org/nips2017workshop/">Interpreting, Explaining and Visualizing Deep Learning</a>
+            </br>
+            Invited keynote at SF rework 2017
+            </br>
+            Invited talk at IBM on “interpretable and interactive machine learning” 2017
+            </br>
+            Invited talk at South Park commons 2017
+          </div>
+
+        </div>						
+      </div>						
+      <!-- End Talks-->
+      <!-- Start Media-->
+            </br>
+            <div id="fh5co-work">
+              <div class="container">
+                <a NAME="Media"><h4>Selected Media Coverage</h4></a>
+                <div class="p13">
+
+
+            Quantas magazine <a href="https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110/">A New Approach to Understanding How Machines Think</a>
+            </br>
+             Znet <a href="https://www.zdnet.com/article/google-says-it-will-address-ai-machine-learning-model-bias-with-technology-called-tcav/">Google says it will address AI, machine learning model bias with technology called TCAV</a>
+            </br>
+             cnet <a href="https://www.cnet.com/news/google-working-to-fix-ai-bias-problems/">Google working to fix AI bias problems</a>
+            </br>
+            Parsing Science <a href="https://www.parsingscience.org/2019/07/09/been-kim/">Behind the Curtain of Algorithms – Been Kim</a>
+            </br>
+            Anlytics insight <a href="https://www.analyticsinsight.net/aiml-model-bias-addressed-tcav-technology-says-google-ceo/">AI/ML Model Bias To Be Adressed With TCAV Technology, Says Google CEO</a>
+            </br>
+            Digital Information World <a href="https://www.digitalinformationworld.com/2019/05/TCAV-federated-learning-google-tools-bias-ai.html">Google to Introduce Two New Tools to End Bias in Artificial Intelligence</a>
+            </br>
+            Magenta <a href="https://magenta.as/how-a-google-brain-researcher-is-making-ai-easier-to-understand-351d17e75734">How a Google Researcher Is Making AI Easier to Understand, Magenta</a>
+            </br>
+            siliconANGLE <a href="https://siliconangle.com/2019/05/07/google-combats-machine-learning-bias-open-source-tech/">Google combats machine learning bias with open-source tech</a>
+            </br>
+            Towards data science <a href="https://towardsdatascience.com/tcav-interpretability-beyond-feature-attribution-79b4d3610b4d">An overview of GoogleAI’s model Interpretability technique in terms of human-friendly concepts.</a>
+            </br>
+           techiexpert <a href="https://www.techiexpert.com/google-brain-built-a-translator-so-ai-can-explain-itself/">Google Brain Built a Translator so AI Can Explain Itself</a>
+            </br>
+            Allerin <a href="https://www.allerin.com/blog/addressing-ai-and-ml-bias-with-tcav-technology">Addressing AI and ML bias with TCAV technology</a>
+            </br>
+            BBNtimes <a href="https://www.bbntimes.com/technology/addressing-artificial-intelligence-and-machine-learning-bias-with-tcav-technology">Addressing artificial intelligence and machine learning bias with TCAV technology</a>
+            </br>
+            Kdnuggets <a href="https://www.kdnuggets.com/2019/07/google-technique-understand-neural-networks-thinking.html">This New Google Technique Help Us Understand How Neural Networks are Thinking</a>
+            </br>
+      <a href="https://www.thetalkingmachines.com/episodes/explainability-and-inexplicable" >Talking machines 2018</a>
+            </br>
+  MIT news <a href="http://newsoffice.mit.edu/2014/pattern-recognition-systems-convey-learning-1205" >Computers that teach by example</a>
+            </br>
+       WSJ <a href="http://online.wsj.com/news/articles/SB10001424127887324021104578553900295324678" >At Work: Just Say `Yeah’</a>
+            </br>
+       Forbes <a href="http://www.forbes.com/sites/dandiamond/2013/06/23/how-to-win-co-workers-and-influence-meetings/" >How To Win Over Co-Workers And Influence Meetings: Use These 3 Words</a>
+            </br>
+       ABC news <a href="http://abcnews.go.com/blogs/business/2013/06/researchers-discover-the-key-to-persuasion/" >
+      Researchers Discover the Key to Persuasion 
+      </a>
+            </br>
+       Yahoo news <a href="http://news.yahoo.com/5-words-results-business-meetings-102239872.html" >
+      5 Important Words to Say in Every Business Meeting
+      </a>
+    
+            </br>
+                </div>
+              </div>
+            </div>
+            <!-- End Media-->
+
+            <div class="fh5co-spacer fh5co-spacer-md"></div>
+
+            <div class="fh5co-spacer fh5co-spacer-sm"></div>
+
+  </main>
+
+  <footer id="fh5co-footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-push-6 col-md-6">
+          <p class="fh5co-copyright" align='right'>
+          <small>
+            Designed by: <a href="http://freehtml5.co/">freehtml5.co</a> 
+          </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Go To Top -->
+  <a href="#" class="fh5co-gotop"><i class="ti-shift-left"></i></a>
+
+
+  <!-- jQuery -->
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- Owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- Easy Responsive Tabs -->
+  <script src="js/easyResponsiveTabs.js"></script>
+  <!-- FastClick for Mobile/Tablets -->
+  <script src="js/fastclick.js"></script>
+  <!-- Velocity -->
+  <script src="js/velocity.min.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+  <script src="js/google_map.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+
+<script>
+function toggle() {
+  var x = document.getElementById("toggle-div");
+  var btn = document.getElementById("thebutton");
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    btn.innerHTML = "+ Show more..."
+  } else {
+    x.style.display = "block";
+    btn.innerHTML = "Hide"
+  }
+}
+
+</script>
+</body>
 </html>
