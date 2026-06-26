@@ -9,6 +9,44 @@
 
   <link href="./css/github-light.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
+
+
+  <style>
+    .profile-links {
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+    }
+
+    .profile-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      line-height: 1.25;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .profile-link:hover span,
+    .profile-link:focus span {
+      text-decoration: underline;
+    }
+
+    .profile-icon {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+      display: inline-block;
+    }
+
+    .profile-icon.orcid {
+      width: 20px;
+      height: 20px;
+      flex-basis: 20px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -18,19 +56,43 @@
       <p>
         eoin.kenny (at) jpmorgan (dot) com<br />
         Senior Associate AI Researcher<br />
-	<a href="https://www.jpmorgan.com/technology/artificial-intelligence/initiatives/explainable-ai-center-of-excellence/">Trustworthy AI</a>, J.P. Morgan<br />
-	<a href= "https://x.com/EoinKNNy">X</a><br />
-	<a href="https://scholar.google.com/citations?user=AzMTFY4AAAAJ&hl=en">Google Scholar</a>
-
+        <a href="https://www.jpmorgan.com/technology/artificial-intelligence/initiatives/explainable-ai-center-of-excellence/">Trustworthy AI</a>, J.P. Morgan
       </p>
+
+      <div class="profile-links" aria-label="Research profiles and social links">
+        <a class="profile-link" href="https://orcid.org/0000-0001-5800-2525" target="_blank" rel="me noopener noreferrer" aria-label="ORCID profile for Eoin Kenny">
+          <svg class="profile-icon orcid" viewBox="0 0 256 256" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="128" cy="128" r="128" fill="#A6CE39"/>
+            <path fill="#FFFFFF" d="M86.3 186.2H70.9V79.1h15.4v107.1zM78.6 63.7c-5.8 0-10.5-4.7-10.5-10.5s4.7-10.5 10.5-10.5 10.5 4.7 10.5 10.5-4.7 10.5-10.5 10.5zM108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.2h24.5c34.9 0 42.9-26.5 42.9-39.7 0-21.5-13.7-39.7-43.7-39.7h-23.7v79.4z"/>
+          </svg>
+          <span>ORCID: 0000-0001-5800-2525</span>
+        </a>
+
+        <a class="profile-link" href="https://x.com/EoinKNNy" target="_blank" rel="me noopener noreferrer" aria-label="X profile for Eoin Kenny">
+          <svg class="profile-icon" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.96 6.817H1.688l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/>
+          </svg>
+          <span>X</span>
+        </a>
+
+        <a class="profile-link" href="https://scholar.google.com/citations?user=AzMTFY4AAAAJ&amp;hl=en" target="_blank" rel="me noopener noreferrer" aria-label="Google Scholar profile for Eoin Kenny">
+          <svg class="profile-icon" viewBox="0 0 24 24" role="img" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" fill="#4285F4"/>
+            <path fill="#FFFFFF" d="M12 4.8 2.9 9.5 12 14.2l9.1-4.7L12 4.8Z"/>
+            <path fill="#FFFFFF" d="M6.6 12.4v3.1c0 1.6 2.4 3.7 5.4 3.7s5.4-2.1 5.4-3.7v-3.1L12 15.2l-5.4-2.8Z"/>
+            <path fill="#FFFFFF" d="M20.4 10.3v5.3h-1.2v-4.7l1.2-.6Z"/>
+          </svg>
+          <span>Google Scholar</span>
+        </a>
+      </div>
     </header>
 
     <section class="content">
       <h3>About</h3>
       <p>
-		  
-		  Hello, I am a Senior AI researcher at J.P. Morgan Chase, London, in their Trustworthy AI research group. Prior to this, I did my Ph.D. at University College Dublin with Mark Keane, and Postdoc at MIT with Julie Shah.
-	      My fundamental research interest is designing AI systems which can communicate with humans in an understandable and useful way. Thus paving the way for a safe and fair future for all.
+      
+      Hello, I am a Senior AI researcher at J.P. Morgan Chase, London, in their Trustworthy AI research group. Prior to this, I did my Ph.D. at University College Dublin with Mark Keane, and Postdoc at MIT with Julie Shah.
+        My fundamental research interest is designing AI systems which can communicate with humans in an understandable and useful way. Thus paving the way for a safe and fair future for all.
       </p>
 
       <p>
@@ -785,10 +847,10 @@ The work emanated from the VistaMilk research project involving Insight, Teagasc
 
       <h3>Academic Services</h3>
       <ul>
-	      <li>Reviewer, NeurIPS 2021-2023</li>
-	      <li>Reviewer, ICLR 2023</li>
-	      <li>Reviewer, AAAI 2021</li>
-	      <li>Reviewer, ICML 2022-2023</li>
+        <li>Reviewer, NeurIPS 2021-2023</li>
+        <li>Reviewer, ICLR 2023</li>
+        <li>Reviewer, AAAI 2021</li>
+        <li>Reviewer, ICML 2022-2023</li>
         <li>Reviewer, <i>Artificial Intelligence</i> Journal 2021-2022</li>
       </ul>
 
