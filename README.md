@@ -2,7 +2,7 @@
 
 Static site, published by GitHub Pages from `main`. No installation or build is needed to serve the pages.
 
-The homepage contains recent news and publications. Biography, work experience, education, media, talks, and service are in `background/index.html`.
+The homepage contains About, recent news, and publications. Work experience, education, media, talks, and service are in `background/index.html`.
 
 ## Add a blog post
 
