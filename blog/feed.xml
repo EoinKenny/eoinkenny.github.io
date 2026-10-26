@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Eoin Kenny — Blog</title>
+    <link>https://eoinkenny.github.io/blog/</link>
+    <description>Research notes on AI and interpretability.</description>
+    <language>en</language>
+    <item>
+      <title>Show the judge a neighbour.</title>
+      <link>https://eoinkenny.github.io/blog/show-the-judge-a-neighbour/</link>
+      <guid>https://eoinkenny.github.io/blog/show-the-judge-a-neighbour/</guid>
+      <description>A small probe flags a sentence. An LLM judge dismisses it. One labelled example changes the verdict. What can that reversal teach us about explanations?</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

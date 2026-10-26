@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "show-the-judge-a-neighbour",
+    "title": "Show the judge a neighbour.",
+    "date": "2026-10-26",
+    "minutes": 14,
+    "description": "A small probe flags a sentence. An LLM judge dismisses it. One labelled example changes the verdict. What can that reversal teach us about explanations?",
+    "image": "assets/title.png",
+    "image_alt": "A nearby labelled training example helps an LLM judge reconsider a probe's prediction.",
+    "tags": ["Interpretability", "LLM evaluation", "Research"]
+  }
+]
