@@ -52,7 +52,7 @@ def main():
 <link rel="canonical" href="https://eoinkenny.github.io/blog/">
 <link rel="alternate" type="application/rss+xml" title="Eoin Kenny — Blog" href="/blog/feed.xml">
 <link rel="stylesheet" href="/css/navigation.css"><link rel="stylesheet" href="style.css"></head><body>
-<nav class="site-nav" aria-label="Main navigation"><a class="site-name" href="/">Eoin M. Kenny</a><div class="site-links"><a href="/">Home</a><a href="/blog/" aria-current="page">Blog post</a></div></nav>
+<nav class="site-nav" aria-label="Main navigation"><a class="site-name" href="/">Eoin M. Kenny</a><div class="site-links"><a href="/">Home</a><a href="/background/">Background</a><a href="/blog/" aria-current="page">Blog post</a></div></nav>
 <main><p class="eyebrow">Research notes</p><h1>Blog</h1>
 <p class="intro">Experiments, ideas, and things I learned about AI along the way.</p>
 <ol class="posts">''' + "\n".join(cards) + '''</ol></main>

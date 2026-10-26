@@ -2,9 +2,11 @@
 
 Static site, published by GitHub Pages from `main`. No installation or build is needed to serve the pages.
 
+The homepage contains recent news and publications. Biography, work experience, education, media, talks, and service are in `background/index.html`.
+
 ## Add a blog post
 
-1. Create `blog/your-post-slug/index.html` and put its images in that folder's `assets/` directory. Keep the Home / Blog post navigation and give the page its own canonical URL.
+1. Create `blog/your-post-slug/index.html` and put its images in that folder's `assets/` directory. Keep the Home / Background / Blog post navigation and give the page its own canonical URL.
 2. Add an entry to `blog/posts.json`, following the existing entry.
 3. Rebuild the listing and RSS feed with Python 3.9 or later:
 
