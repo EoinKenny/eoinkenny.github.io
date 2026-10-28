@@ -6,6 +6,13 @@
     <description>Research notes on AI and interpretability.</description>
     <language>en</language>
     <item>
+      <title>What can a retina teach us?</title>
+      <link>https://eoinkenny.github.io/blog/what-can-a-retina-teach-us/</link>
+      <guid>https://eoinkenny.github.io/blog/what-can-a-retina-teach-us/</guid>
+      <description>A strong classifier, imperfect synthetic counterfactuals, and an early attempt to turn model behaviour into useful human knowledge.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Show the judge a neighbour.</title>
       <link>https://eoinkenny.github.io/blog/show-the-judge-a-neighbour/</link>
       <guid>https://eoinkenny.github.io/blog/show-the-judge-a-neighbour/</guid>

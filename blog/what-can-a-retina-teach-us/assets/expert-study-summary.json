@@ -1,0 +1,539 @@
+{
+  "participants": 1,
+  "scored_trials": 30,
+  "expert_selection": "User confirmed anonymous response 10, last completed substantive response",
+  "survey_date": "2024-08-08",
+  "ground_truth_source": "Original Pilot Analysis notebook cell 3",
+  "answer_key": "Q1a-Q15a Male; Q16a-Q30a Female",
+  "excluded_question": "Q108, matching the original notebook analysis",
+  "confidence_scale": "Ordinal 1-7 agreement; Neutral=4 and Strongly agree=7, as in the notebook. Not probabilities.",
+  "notebook_table_matches_all_trials": true,
+  "overall": {
+    "n": 30,
+    "correct": 17,
+    "accuracy": 0.5666666666666667,
+    "accuracy_wilson95": [
+      0.3919730700081361,
+      0.7262251442353347
+    ],
+    "coverage": 1.0,
+    "classes": {
+      "Female": {
+        "tp": 11,
+        "fp": 9,
+        "fn": 4,
+        "support": 15,
+        "predicted": 20,
+        "precision": 0.55,
+        "recall": 0.7333333333333333,
+        "f1": 0.6285714285714286
+      },
+      "Male": {
+        "tp": 6,
+        "fp": 4,
+        "fn": 9,
+        "support": 15,
+        "predicted": 10,
+        "precision": 0.6,
+        "recall": 0.4,
+        "f1": 0.48
+      }
+    }
+  },
+  "thresholds": [
+    {
+      "minimum_confidence": 1,
+      "n": 30,
+      "correct": 17,
+      "accuracy": 0.5666666666666667,
+      "accuracy_wilson95": [
+        0.3919730700081361,
+        0.7262251442353347
+      ],
+      "coverage": 1.0,
+      "classes": {
+        "Female": {
+          "tp": 11,
+          "fp": 9,
+          "fn": 4,
+          "support": 15,
+          "predicted": 20,
+          "precision": 0.55,
+          "recall": 0.7333333333333333,
+          "f1": 0.6285714285714286
+        },
+        "Male": {
+          "tp": 6,
+          "fp": 4,
+          "fn": 9,
+          "support": 15,
+          "predicted": 10,
+          "precision": 0.6,
+          "recall": 0.4,
+          "f1": 0.48
+        }
+      }
+    },
+    {
+      "minimum_confidence": 2,
+      "n": 30,
+      "correct": 17,
+      "accuracy": 0.5666666666666667,
+      "accuracy_wilson95": [
+        0.3919730700081361,
+        0.7262251442353347
+      ],
+      "coverage": 1.0,
+      "classes": {
+        "Female": {
+          "tp": 11,
+          "fp": 9,
+          "fn": 4,
+          "support": 15,
+          "predicted": 20,
+          "precision": 0.55,
+          "recall": 0.7333333333333333,
+          "f1": 0.6285714285714286
+        },
+        "Male": {
+          "tp": 6,
+          "fp": 4,
+          "fn": 9,
+          "support": 15,
+          "predicted": 10,
+          "precision": 0.6,
+          "recall": 0.4,
+          "f1": 0.48
+        }
+      }
+    },
+    {
+      "minimum_confidence": 3,
+      "n": 30,
+      "correct": 17,
+      "accuracy": 0.5666666666666667,
+      "accuracy_wilson95": [
+        0.3919730700081361,
+        0.7262251442353347
+      ],
+      "coverage": 1.0,
+      "classes": {
+        "Female": {
+          "tp": 11,
+          "fp": 9,
+          "fn": 4,
+          "support": 15,
+          "predicted": 20,
+          "precision": 0.55,
+          "recall": 0.7333333333333333,
+          "f1": 0.6285714285714286
+        },
+        "Male": {
+          "tp": 6,
+          "fp": 4,
+          "fn": 9,
+          "support": 15,
+          "predicted": 10,
+          "precision": 0.6,
+          "recall": 0.4,
+          "f1": 0.48
+        }
+      }
+    },
+    {
+      "minimum_confidence": 4,
+      "n": 28,
+      "correct": 16,
+      "accuracy": 0.5714285714285714,
+      "accuracy_wilson95": [
+        0.3907078562746876,
+        0.734914528758763
+      ],
+      "coverage": 0.9333333333333333,
+      "classes": {
+        "Female": {
+          "tp": 11,
+          "fp": 8,
+          "fn": 4,
+          "support": 15,
+          "predicted": 19,
+          "precision": 0.5789473684210527,
+          "recall": 0.7333333333333333,
+          "f1": 0.6470588235294118
+        },
+        "Male": {
+          "tp": 5,
+          "fp": 4,
+          "fn": 8,
+          "support": 13,
+          "predicted": 9,
+          "precision": 0.5555555555555556,
+          "recall": 0.38461538461538464,
+          "f1": 0.45454545454545453
+        }
+      }
+    },
+    {
+      "minimum_confidence": 5,
+      "n": 21,
+      "correct": 12,
+      "accuracy": 0.5714285714285714,
+      "accuracy_wilson95": [
+        0.3654655436930671,
+        0.7553003107462404
+      ],
+      "coverage": 0.7,
+      "classes": {
+        "Female": {
+          "tp": 7,
+          "fp": 6,
+          "fn": 3,
+          "support": 10,
+          "predicted": 13,
+          "precision": 0.5384615384615384,
+          "recall": 0.7,
+          "f1": 0.6086956521739131
+        },
+        "Male": {
+          "tp": 5,
+          "fp": 3,
+          "fn": 6,
+          "support": 11,
+          "predicted": 8,
+          "precision": 0.625,
+          "recall": 0.45454545454545453,
+          "f1": 0.5263157894736842
+        }
+      }
+    },
+    {
+      "minimum_confidence": 6,
+      "n": 15,
+      "correct": 9,
+      "accuracy": 0.6,
+      "accuracy_wilson95": [
+        0.357468301206246,
+        0.8017550385865841
+      ],
+      "coverage": 0.5,
+      "classes": {
+        "Female": {
+          "tp": 5,
+          "fp": 3,
+          "fn": 3,
+          "support": 8,
+          "predicted": 8,
+          "precision": 0.625,
+          "recall": 0.625,
+          "f1": 0.625
+        },
+        "Male": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 3,
+          "support": 7,
+          "predicted": 7,
+          "precision": 0.5714285714285714,
+          "recall": 0.5714285714285714,
+          "f1": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "minimum_confidence": 7,
+      "n": 7,
+      "correct": 4,
+      "accuracy": 0.5714285714285714,
+      "accuracy_wilson95": [
+        0.2504583645276572,
+        0.8417801447485302
+      ],
+      "coverage": 0.23333333333333334,
+      "classes": {
+        "Female": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 2,
+          "support": 4,
+          "predicted": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285714
+        },
+        "Male": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "support": 3,
+          "predicted": 4,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285714
+        }
+      }
+    }
+  ],
+  "confidence_bins": [
+    {
+      "confidence": 1,
+      "n": 0,
+      "correct": 0,
+      "accuracy": null,
+      "accuracy_wilson95": null,
+      "coverage": 0.0,
+      "classes": {
+        "Female": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 0,
+          "predicted": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "Male": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 0,
+          "predicted": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      }
+    },
+    {
+      "confidence": 2,
+      "n": 0,
+      "correct": 0,
+      "accuracy": null,
+      "accuracy_wilson95": null,
+      "coverage": 0.0,
+      "classes": {
+        "Female": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 0,
+          "predicted": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "Male": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 0,
+          "predicted": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      }
+    },
+    {
+      "confidence": 3,
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "accuracy_wilson95": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "coverage": 0.06666666666666667,
+      "classes": {
+        "Female": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "support": 0,
+          "predicted": 1,
+          "precision": 0.0,
+          "recall": null,
+          "f1": 0.0
+        },
+        "Male": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1,
+          "support": 2,
+          "predicted": 1,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        }
+      }
+    },
+    {
+      "confidence": 4,
+      "n": 7,
+      "correct": 4,
+      "accuracy": 0.5714285714285714,
+      "accuracy_wilson95": [
+        0.2504583645276572,
+        0.8417801447485302
+      ],
+      "coverage": 0.23333333333333334,
+      "classes": {
+        "Female": {
+          "tp": 4,
+          "fp": 2,
+          "fn": 1,
+          "support": 5,
+          "predicted": 6,
+          "precision": 0.6666666666666666,
+          "recall": 0.8,
+          "f1": 0.7272727272727273
+        },
+        "Male": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 2,
+          "support": 2,
+          "predicted": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    {
+      "confidence": 5,
+      "n": 6,
+      "correct": 3,
+      "accuracy": 0.5,
+      "accuracy_wilson95": [
+        0.1876163064826506,
+        0.8123836935173494
+      ],
+      "coverage": 0.2,
+      "classes": {
+        "Female": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 0,
+          "support": 2,
+          "predicted": 5,
+          "precision": 0.4,
+          "recall": 1.0,
+          "f1": 0.5714285714285714
+        },
+        "Male": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 3,
+          "support": 4,
+          "predicted": 1,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4
+        }
+      }
+    },
+    {
+      "confidence": 6,
+      "n": 8,
+      "correct": 5,
+      "accuracy": 0.625,
+      "accuracy_wilson95": [
+        0.30574239460262737,
+        0.8631557141764026
+      ],
+      "coverage": 0.26666666666666666,
+      "classes": {
+        "Female": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 1,
+          "support": 4,
+          "predicted": 5,
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1": 0.6666666666666666
+        },
+        "Male": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 2,
+          "support": 4,
+          "predicted": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "confidence": 7,
+      "n": 7,
+      "correct": 4,
+      "accuracy": 0.5714285714285714,
+      "accuracy_wilson95": [
+        0.2504583645276572,
+        0.8417801447485302
+      ],
+      "coverage": 0.23333333333333334,
+      "classes": {
+        "Female": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 2,
+          "support": 4,
+          "predicted": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.5,
+          "f1": 0.5714285714285714
+        },
+        "Male": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "support": 3,
+          "predicted": 4,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285714
+        }
+      }
+    }
+  ],
+  "confusion_matrix": {
+    "row_true_column_predicted": [
+      "Female",
+      "Male"
+    ],
+    "counts": [
+      [
+        11,
+        4
+      ],
+      [
+        9,
+        6
+      ]
+    ]
+  },
+  "qualitative_feedback": {
+    "S1": "100",
+    "S2": "30-40min",
+    "S3": "The quality was mostly comparable for the needs of the survey.",
+    "S4": "No.",
+    "S5": "Female: Optic nerve more oval (vertically) + paler; pigment epithelium more visible pattern // Male: Vasculature a little more prominent in the temp-inf/-sup arcades towards macula; more retinal light reflexes."
+  },
+  "limitations": [
+    "One participant and 30 scored images; no pre-teaching performance or untreated comparison in the export.",
+    "Ground truth recovered from notebook code; image-to-question mapping not independently reverified.",
+    "Wilson intervals describe conditional trial-level uncertainty under independent-trial assumptions, not variation across experts.",
+    "Confidence thresholds are post hoc descriptive subsets of the same trials.",
+    "The original 62% maximum-expected-accuracy line has no documented basis and is omitted.",
+    "A 50% fair-coin accuracy reference is not a universal chance baseline for precision, recall or F1."
+  ],
+  "provenance": {
+    "survey_sha256": "adb65d845c899b2812b9b0787a0e137556a25ac0c825bc10c36d75713a0fd8d1",
+    "notebook_sha256": "f4383ac45b5c2950cc85bd3869b1be3423c49c089877443d2e688e6991f98c40",
+    "analysis_sha256": "a923c0e4b871af93862b792d376d68da6e49a371d12d01ebbdc9dacb97614c14"
+  }
+}

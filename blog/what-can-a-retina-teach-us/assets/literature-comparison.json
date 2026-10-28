@@ -1,0 +1,20 @@
+{
+  "paper": {
+    "title": "Factors in Color Fundus Photographs That Can Be Used by Humans to Determine Sex of Individuals",
+    "authors": "Yamashita et al.",
+    "year": 2020,
+    "doi": "10.1167/tvst.9.2.4",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7255626/",
+    "retrieved_full_text": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7255626/fullTextXML",
+    "xml_sha256": "7607cc5a4b72bfbe76556f1d2d7d90daf1667f87cb88ffb7228c29558f536388"
+  },
+  "type": "Qualitative comparison, not statistical feature correlation",
+  "paper_shared_before_survey": "Unknown",
+  "comparison": [
+    "Disc shape: qualitative agreement with Discussion. Numeric ovality index must not be interpreted as more oval merely because it is larger.",
+    "Disc pallor: not measured; surrounding fundus color measurements differ in region and metric.",
+    "RPE pattern: not equivalent to tessellation fundus index. Direction cannot be classified without a defined mapping.",
+    "Vasculature: same broad anatomy; prominence is not artery location or angle.",
+    "Light reflexes: not measured."
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "cnn_checkpoint_sha256": "b0aaaff93e4fdb69ac078cd065a25952a816242a53e5388dd55b71ec69fb4524",
+  "cnn_checkpoint_index": 400,
+  "sd_updates": 37500,
+  "reference_images": 50,
+  "held_out_real_query_images": 50,
+  "unfiltered_pairs": 50,
+  "passing_pairs": 60,
+  "independent_encoder": "ImageNet1K V1 ResNet18; frozen; not fine-tuned on this task",
+  "independent_encoder_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "reference_indices": [
+    27,
+    8,
+    42,
+    33,
+    30,
+    19,
+    17,
+    25,
+    7,
+    14,
+    49,
+    12,
+    5,
+    2,
+    43,
+    10,
+    24,
+    18,
+    38,
+    4,
+    26,
+    48,
+    9,
+    40,
+    22,
+    84,
+    97,
+    81,
+    59,
+    87,
+    66,
+    90,
+    61,
+    78,
+    85,
+    70,
+    53,
+    68,
+    50,
+    76,
+    89,
+    94,
+    73,
+    86,
+    88,
+    82,
+    74,
+    80,
+    64,
+    75
+  ],
+  "query_indices": [
+    0,
+    1,
+    3,
+    6,
+    11,
+    13,
+    15,
+    16,
+    20,
+    21,
+    23,
+    28,
+    29,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    39,
+    41,
+    44,
+    45,
+    46,
+    47,
+    51,
+    52,
+    54,
+    55,
+    56,
+    57,
+    58,
+    60,
+    62,
+    63,
+    65,
+    67,
+    69,
+    71,
+    72,
+    77,
+    79,
+    83,
+    91,
+    92,
+    93,
+    95,
+    96,
+    98,
+    99
+  ],
+  "unique_images": 304,
+  "population_memberships": 320,
+  "overlap_images_between_synthetic_groups": 16,
+  "selection": "Fixed first 25 prefix pairs/direction before filtering; all 60 passing teaching pairs. Same frozen 50-image real reference bank for every query.",
+  "pca_fit": "Only the 50 real reference images; applied unchanged to held-out real queries and both synthetic groups",
+  "distance": "Euclidean in original 512D features, before PCA; unit-norm sensitivity reported separately",
+  "limitations": [
+    "Descriptive distances and empirical real-query percentiles are not validated OOD decisions.",
+    "The same CNN selected passing pairs; independent ImageNet features provide a separate sensitivity check.",
+    "Synthetic pairs share noise and attention; images within pairs are dependent.",
+    "Synthetic groups overlap and are not independent samples.",
+    "Patient independence of real splits is unknown; n=50 real queries is small."
+  ],
+  "encoders": {
+    "cnn": {
+      "real_query_95th_percentile": 17.187479228515553,
+      "pca_explained_variance_ratio": [
+        0.5605887437643716,
+        0.07348780622183798
+      ],
+      "groups": {
+        "real_query": {
+          "nearest": {
+            "n": 50,
+            "mean": 12.250277556572398,
+            "median": 11.98367992868128,
+            "q95": 17.187479228515553
+          },
+          "ratio_to_real_mean": 1.0,
+          "above_real_query95": 3,
+          "unit_norm_ratio": 1.0
+        },
+        "unfiltered": {
+          "nearest": {
+            "n": 100,
+            "mean": 20.631460294056275,
+            "median": 19.702274084412934,
+            "q95": 29.732399720285787
+          },
+          "ratio_to_real_mean": 1.684162681113073,
+          "above_real_query95": 76,
+          "unit_norm_ratio": 1.4800411172475483
+        },
+        "passing": {
+          "nearest": {
+            "n": 120,
+            "mean": 18.752125051825654,
+            "median": 18.25091370265435,
+            "q95": 26.628282566054718
+          },
+          "ratio_to_real_mean": 1.5307510352502136,
+          "above_real_query95": 69,
+          "unit_norm_ratio": 1.5330427352805447
+        }
+      }
+    },
+    "independent": {
+      "real_query_95th_percentile": 14.468603985937431,
+      "pca_explained_variance_ratio": [
+        0.1438171012143434,
+        0.09974002075720678
+      ],
+      "groups": {
+        "real_query": {
+          "nearest": {
+            "n": 50,
+            "mean": 10.949778829278296,
+            "median": 10.766852410783152,
+            "q95": 14.468603985937431
+          },
+          "ratio_to_real_mean": 1.0,
+          "above_real_query95": 3,
+          "unit_norm_ratio": 1.0
+        },
+        "unfiltered": {
+          "nearest": {
+            "n": 100,
+            "mean": 16.72941510049871,
+            "median": 16.48609305430795,
+            "q95": 19.794149426155897
+          },
+          "ratio_to_real_mean": 1.5278313253018785,
+          "above_real_query95": 93,
+          "unit_norm_ratio": 1.3844006482537003
+        },
+        "passing": {
+          "nearest": {
+            "n": 120,
+            "mean": 16.194606456021344,
+            "median": 16.266515684178735,
+            "q95": 18.456379665324036
+          },
+          "ratio_to_real_mean": 1.4789893666819147,
+          "above_real_query95": 101,
+          "unit_norm_ratio": 1.3704892294382383
+        }
+      }
+    }
+  },
+  "real_query_cnn_accuracy": 1.0
+}
